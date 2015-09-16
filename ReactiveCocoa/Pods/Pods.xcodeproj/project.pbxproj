@@ -204,7 +204,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84B691BC3EFAF488CC6E6069953EFDB0 /* PBXContainerItemProxy */ = {
+		E72BAA2259FC6D44089144EF878F0D5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -862,7 +862,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5C0A19A5D01CA47DE73EFD9BB8C3D792 /* PBXTargetDependency */,
+				B8B077E5FD16C6AF4AD63DDE81556DF7 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -1024,11 +1024,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5C0A19A5D01CA47DE73EFD9BB8C3D792 /* PBXTargetDependency */ = {
+		B8B077E5FD16C6AF4AD63DDE81556DF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReactiveCocoa;
 			target = 6951DA9871DA259A9AAA6EFC68AEF8EB /* ReactiveCocoa */;
-			targetProxy = 84B691BC3EFAF488CC6E6069953EFDB0 /* PBXContainerItemProxy */;
+			targetProxy = E72BAA2259FC6D44089144EF878F0D5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

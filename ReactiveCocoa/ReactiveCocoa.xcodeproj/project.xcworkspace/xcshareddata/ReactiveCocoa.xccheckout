@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>89BD9AB3-2185-48FC-84D7-A69D19F2D22A</string>
+	<string>A7AE2C62-DCF4-4A37-B62B-CF584A2E94E4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ReactiveCocoa</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>598FF1235AAF21E4F7FCEC2A2A2786FD27F494B0</key>
 		<string>https://github.com/wangjiangwen/GitExerciseDemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ReactiveCocoa/ReactiveCocoa.xcodeproj</string>
+	<string>ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>598FF1235AAF21E4F7FCEC2A2A2786FD27F494B0</key>
-		<string>../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/wangjiangwen/GitExerciseDemo.git</string>

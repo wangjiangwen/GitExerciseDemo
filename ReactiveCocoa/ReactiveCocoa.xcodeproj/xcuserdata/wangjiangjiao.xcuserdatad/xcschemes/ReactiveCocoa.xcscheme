@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2EDC0BAF1BA9C9A8004758ED"
+               BlueprintIdentifier = "2E0AB7AD1BA9D79400BF7811"
                BuildableName = "ReactiveCocoa.app"
                BlueprintName = "ReactiveCocoa"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
@@ -22,13 +22,13 @@
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "NO"
+            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2EDC0BC81BA9C9A8004758ED"
+               BlueprintIdentifier = "2E0AB7C61BA9D79500BF7811"
                BuildableName = "ReactiveCocoaTests.xctest"
                BlueprintName = "ReactiveCocoaTests"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2EDC0BC81BA9C9A8004758ED"
+               BlueprintIdentifier = "2E0AB7C61BA9D79500BF7811"
                BuildableName = "ReactiveCocoaTests.xctest"
                BlueprintName = "ReactiveCocoaTests"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2EDC0BAF1BA9C9A8004758ED"
+            BlueprintIdentifier = "2E0AB7AD1BA9D79400BF7811"
             BuildableName = "ReactiveCocoa.app"
             BlueprintName = "ReactiveCocoa"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2EDC0BAF1BA9C9A8004758ED"
+            BlueprintIdentifier = "2E0AB7AD1BA9D79400BF7811"
             BuildableName = "ReactiveCocoa.app"
             BlueprintName = "ReactiveCocoa"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2EDC0BAF1BA9C9A8004758ED"
+            BlueprintIdentifier = "2E0AB7AD1BA9D79400BF7811"
             BuildableName = "ReactiveCocoa.app"
             BlueprintName = "ReactiveCocoa"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">

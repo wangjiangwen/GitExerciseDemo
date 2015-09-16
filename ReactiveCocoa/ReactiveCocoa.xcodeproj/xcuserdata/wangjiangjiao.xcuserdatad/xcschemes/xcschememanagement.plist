@@ -6,20 +6,18 @@
 	<dict>
 		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2EDC0BAF1BA9C9A8004758ED</key>
+		<key>2E0AB7AD1BA9D79400BF7811</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2EDC0BC81BA9C9A8004758ED</key>
+		<key>2E0AB7C61BA9D79500BF7811</key>
 		<dict>
 			<key>primary</key>
 			<true/>

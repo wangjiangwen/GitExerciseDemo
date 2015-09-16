@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/wangjiangjiao/Desktop/GitHub/GitExerciseDemo/ReactiveCocoa/ReactiveCocoa.xcodeproj">
+      location = "self:ReactiveCocoa.xcodeproj">
    </FileRef>
 </Workspace>
