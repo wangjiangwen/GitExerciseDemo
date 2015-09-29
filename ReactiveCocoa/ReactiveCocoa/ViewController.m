@@ -57,8 +57,9 @@
     
     //    [self racOnlySubscribeNextByTextSignal];
     //    [self racFilterSubscribeNextByTextSignal];
-    [self racMapFilterSubscribeNextByTextSignal];
-    [self racMapValidFilterSubscribeNextByTextSignal];
+//    [self racMapFilterSubscribeNextByTextSignal];
+//    [self racMapValidFilterSubscribeNextByTextSignal];
+    [self racCombineLatest];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -172,6 +173,16 @@
                                                        reduce:^id(NSNumber*usernameValid, NSNumber *passwordValid){
                                                            return @([usernameValid boolValue]&&[passwordValid boolValue]);
                                                        }];
+    
+    [signUpActiveSignal subscribeNext:^(NSNumber * signupActive) {
+        self.signInButton.enabled = [signupActive boolValue];
+        if (self.signInButton.enabled == YES) {
+            [_signInButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        }else{
+            [_signInButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
+
+        }
+    }];
 }
 
 - (BOOL)isValidUserName:(NSString *)text
