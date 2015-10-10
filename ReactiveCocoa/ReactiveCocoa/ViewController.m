@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <ReactiveCocoa/RACEXTScope.h>
+#import "LoginViewModel.h"
 
 #define SCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT  [UIScreen mainScreen].bounds.size.height
@@ -17,7 +18,7 @@
 @property (nonatomic, strong) UITextField * userNameTextField;
 @property (nonatomic, strong) UITextField * passwordTextField;
 @property (nonatomic, strong) UIButton * signInButton;
-
+@property (nonatomic, strong) LoginViewModel * loginViewModel;
 @end
 
 @implementation ViewController
@@ -26,6 +27,9 @@
     [super viewDidLoad];
     
     self.title = @"ReactiveCocoa";
+    
+    
+    _loginViewModel = [[LoginViewModel alloc] init];
     
     _userNameTextField = [[UITextField alloc] initWithFrame:CGRectMake((SCREEN_WIDTH - 160)/2.0, 100, 160, 30)];
     _userNameTextField.placeholder = @"User Name";
@@ -60,8 +64,69 @@
 //    [self racMapFilterSubscribeNextByTextSignal];
 //    [self racMapValidFilterSubscribeNextByTextSignal];
     [self racCombineLatest];
+    
+    [self rac_observerModel];
+    [self obseverLoginModel];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
+- (void)obseverLoginModel
+{
+//    [_loginViewModel addObserver:self forKeyPath:@"loginArray" options:NSKeyValueObservingOptionInitial  context:(__bridge void * _Nullable)(self)];
+    [_loginViewModel addObserver:self forKeyPath:@"loginArray" options:NSKeyValueObservingOptionPrior  context:nil];
+//    [_loginViewModel addObserver:self forKeyPath:@"loginArray" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld  context:nil];
+
+}
+
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context
+{
+    /*1.当options为NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld时
+    change才有old和new的值，此时 {kind = 1;new =     (3454230962,2599163996,
+               1233647024,
+               854699450,
+               3777774121,
+               2457456023,
+               1530101226,
+               3916188854,
+               534158055,
+               1147988021
+               );old = "<null>";
+     }*/
+    
+    NSLog(@" old array is %@", [change objectForKey:@"old"]);
+    NSLog(@" new array is %@", [change objectForKey:@"new"]);
+    
+    /*
+    //2.当options为NSKeyValueObservingOptionPrior时，change：Printing description of change:
+    {
+        kind = 1;
+        notificationIsPrior = 1;
+    }
+     */
+    if ([change[NSKeyValueChangeNotificationIsPriorKey] boolValue]) { //改变前
+        
+    }else{//改变后
+        NSLog(@"observeValueForKeyPath refresh");
+    }
+
+    /* 3.当options为options:NSKeyValueObservingOptionInitial时，change：Printing description of change:
+     {
+     kind = 1;
+     }
+     */
+    
+}
+
+- (void)rac_observerModel
+{
+    @weakify(self);
+    [RACObserve(self.loginViewModel, loginArray) subscribeNext:^(id x) {
+        NSLog(@"refresh");
+    }];
+}
+
 
 #pragma mark --
 //刚才所创建的只是一个很简单的管道。这就是响应式编程的本质，根据数据流来表达应用的功能。
@@ -198,7 +263,7 @@
 
 - (void)loginInButtonClick:(id)sender
 {
-    
+    [_loginViewModel loadNewArray];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,17 @@
+//
+//  WJ-Prefix.pch
+//  WJFramework
+//
+//  Created by wangjiangjiao on 15/9/30.
+//  Copyright © 2015年 wangjiangjiao. All rights reserved.
+//
+
+#ifndef WJ_Prefix_pch
+#define WJ_Prefix_pch
+
+#import "WJUIKitMacros.h"
+#import "WJFoundationMacros.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* WJ_Prefix_pch */
