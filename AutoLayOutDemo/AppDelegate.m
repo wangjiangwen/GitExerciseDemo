@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
+#import "TestAutoLayOutViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +17,18 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+#if 0
+    RootViewController * rootViewController = [[RootViewController alloc] init];
+    UINavigationController * navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    navigationController.navigationBarHidden = YES;
+    self.window.rootViewController = navigationController;
+#else
+    TestAutoLayOutViewController * rootViewController = [[TestAutoLayOutViewController alloc] init];
+    UINavigationController * navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    navigationController.navigationBarHidden = YES;
+    self.window.rootViewController = navigationController;
+    
+#endif
     [self.window makeKeyAndVisible];
     return YES;
 }

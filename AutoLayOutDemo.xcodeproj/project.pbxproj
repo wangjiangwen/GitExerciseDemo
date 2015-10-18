@@ -19,6 +19,12 @@
 		2E0678BD19C7E1A20020EA19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0678A519C7E1A20020EA19 /* UIKit.framework */; };
 		2E0678C519C7E1A20020EA19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E0678C319C7E1A20020EA19 /* InfoPlist.strings */; };
 		2E0678C719C7E1A20020EA19 /* AutoLayOutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0678C619C7E1A20020EA19 /* AutoLayOutDemoTests.m */; };
+		2E0678F319C7E2B30020EA19 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0678F219C7E2B30020EA19 /* RootViewController.m */; };
+		2EA1169119C843D500A6FFDE /* TestAutoLayOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1168F19C843D500A6FFDE /* TestAutoLayOutViewController.m */; };
+		2EA1169219C843D500A6FFDE /* TestAutoLayOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EA1169019C843D500A6FFDE /* TestAutoLayOutViewController.xib */; };
+		2ECA31181BD2BBE6005C5679 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECA31171BD2BBE6005C5679 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		2EEB36FB1BD3F78A00E9CB66 /* MasnoryTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB36FA1BD3F78A00E9CB66 /* MasnoryTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C39580C25CB4D3219E42BF9A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B06297356FC41F826309D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,17 @@
 		2E0678C219C7E1A20020EA19 /* AutoLayOutDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayOutDemoTests-Info.plist"; sourceTree = "<group>"; };
 		2E0678C419C7E1A20020EA19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E0678C619C7E1A20020EA19 /* AutoLayOutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayOutDemoTests.m; sourceTree = "<group>"; };
+		2E0678F119C7E2B30020EA19 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2E0678F219C7E2B30020EA19 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2EA1168E19C843D500A6FFDE /* TestAutoLayOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAutoLayOutViewController.h; sourceTree = "<group>"; };
+		2EA1168F19C843D500A6FFDE /* TestAutoLayOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAutoLayOutViewController.m; sourceTree = "<group>"; };
+		2EA1169019C843D500A6FFDE /* TestAutoLayOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestAutoLayOutViewController.xib; sourceTree = "<group>"; };
+		2ECA31171BD2BBE6005C5679 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2EEB36F91BD3F78A00E9CB66 /* MasnoryTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasnoryTestViewController.h; sourceTree = "<group>"; };
+		2EEB36FA1BD3F78A00E9CB66 /* MasnoryTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasnoryTestViewController.m; sourceTree = "<group>"; };
+		6721023A1F18D8CB02876630 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6A80782EC6A6519746E7AF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A66B06297356FC41F826309D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 				2E0678A419C7E1A20020EA19 /* CoreGraphics.framework in Frameworks */,
 				2E0678A619C7E1A20020EA19 /* UIKit.framework in Frameworks */,
 				2E0678A219C7E1A20020EA19 /* Foundation.framework in Frameworks */,
+				C39580C25CB4D3219E42BF9A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,7 @@
 				2E0678C019C7E1A20020EA19 /* AutoLayOutDemoTests */,
 				2E0678A019C7E1A20020EA19 /* Frameworks */,
 				2E06789F19C7E1A20020EA19 /* Products */,
+				43AADC368C658858DDE6DE0F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +119,7 @@
 				2E0678A319C7E1A20020EA19 /* CoreGraphics.framework */,
 				2E0678A519C7E1A20020EA19 /* UIKit.framework */,
 				2E0678BA19C7E1A20020EA19 /* XCTest.framework */,
+				A66B06297356FC41F826309D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +129,13 @@
 			children = (
 				2E0678B019C7E1A20020EA19 /* AppDelegate.h */,
 				2E0678B119C7E1A20020EA19 /* AppDelegate.m */,
+				2E0678F119C7E2B30020EA19 /* RootViewController.h */,
+				2E0678F219C7E2B30020EA19 /* RootViewController.m */,
+				2EA1168E19C843D500A6FFDE /* TestAutoLayOutViewController.h */,
+				2EA1168F19C843D500A6FFDE /* TestAutoLayOutViewController.m */,
+				2EA1169019C843D500A6FFDE /* TestAutoLayOutViewController.xib */,
+				2EEB36F91BD3F78A00E9CB66 /* MasnoryTestViewController.h */,
+				2EEB36FA1BD3F78A00E9CB66 /* MasnoryTestViewController.m */,
 				2E0678B319C7E1A20020EA19 /* Images.xcassets */,
 				2E0678A819C7E1A20020EA19 /* Supporting Files */,
 			);
@@ -121,6 +148,7 @@
 				2E0678A919C7E1A20020EA19 /* AutoLayOutDemo-Info.plist */,
 				2E0678AA19C7E1A20020EA19 /* InfoPlist.strings */,
 				2E0678AD19C7E1A20020EA19 /* main.m */,
+				2ECA31171BD2BBE6005C5679 /* Launch Screen.storyboard */,
 				2E0678AF19C7E1A20020EA19 /* AutoLayOutDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -144,6 +172,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		43AADC368C658858DDE6DE0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6721023A1F18D8CB02876630 /* Pods.debug.xcconfig */,
+				7A6A80782EC6A6519746E7AF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E0678CA19C7E1A20020EA19 /* Build configuration list for PBXNativeTarget "AutoLayOutDemo" */;
 			buildPhases = (
+				8CE927E6BAE7608F359F1A1F /* Check Pods Manifest.lock */,
 				2E06789A19C7E1A20020EA19 /* Sources */,
 				2E06789B19C7E1A20020EA19 /* Frameworks */,
 				2E06789C19C7E1A20020EA19 /* Resources */,
+				F1DF601B18DE78039D00FFC1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +227,7 @@
 		2E06789619C7E1A20020EA19 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = elong;
 				TargetAttributes = {
 					2E0678B819C7E1A20020EA19 = {
@@ -221,6 +260,8 @@
 			files = (
 				2E0678AC19C7E1A20020EA19 /* InfoPlist.strings in Resources */,
 				2E0678B419C7E1A20020EA19 /* Images.xcassets in Resources */,
+				2ECA31181BD2BBE6005C5679 /* Launch Screen.storyboard in Resources */,
+				2EA1169219C843D500A6FFDE /* TestAutoLayOutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,12 +275,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CE927E6BAE7608F359F1A1F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1DF601B18DE78039D00FFC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E06789A19C7E1A20020EA19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0678F319C7E2B30020EA19 /* RootViewController.m in Sources */,
+				2EA1169119C843D500A6FFDE /* TestAutoLayOutViewController.m in Sources */,
 				2E0678B219C7E1A20020EA19 /* AppDelegate.m in Sources */,
+				2EEB36FB1BD3F78A00E9CB66 /* MasnoryTestViewController.m in Sources */,
 				2E0678AE19C7E1A20020EA19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +377,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -354,12 +432,16 @@
 		};
 		2E0678CB19C7E1A20020EA19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6721023A1F18D8CB02876630 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoLayOutDemo/AutoLayOutDemo-Prefix.pch";
 				INFOPLIST_FILE = "AutoLayOutDemo/AutoLayOutDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elong.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -367,12 +449,16 @@
 		};
 		2E0678CC19C7E1A20020EA19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6A80782EC6A6519746E7AF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoLayOutDemo/AutoLayOutDemo-Prefix.pch";
 				INFOPLIST_FILE = "AutoLayOutDemo/AutoLayOutDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elong.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +480,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "AutoLayOutDemoTests/AutoLayOutDemoTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elong.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -412,6 +499,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoLayOutDemo/AutoLayOutDemo-Prefix.pch";
 				INFOPLIST_FILE = "AutoLayOutDemoTests/AutoLayOutDemoTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elong.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -437,6 +525,7 @@
 				2E0678CC19C7E1A20020EA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E0678CD19C7E1A20020EA19 /* Build configuration list for PBXNativeTarget "AutoLayOutDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +534,7 @@
 				2E0678CF19C7E1A20020EA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
